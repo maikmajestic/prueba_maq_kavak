@@ -1,0 +1,63 @@
+nav {
+  height: 3.125rem;
+}
+
+header {
+  height: 20rem;
+}
+
+.item-box {
+  height: 2.5rem;
+  background: #e4e4e4;
+}
+
+.navbar-main{
+	padding: 0 5%;
+}
+
+.nav-links{
+	color: #fff;
+}
+
+.nav-links li{
+	padding: 0 15px;
+}
+
+.navbar-logo{
+	width: 6em;
+	height: 2em;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+}
+
+.carousel-caption_middle{
+	bottom:50%;
+	text-shadow: 2px 2px #000;
+}
+
+.item-mini{
+	display: inline-block;
+	margin-bottom: 3rem;
+	width: 100%;
+}
+
+.item-img{
+	width: 100%;
+}
+
+.bg-primary:hover .item-img, #grid + .item-img{
+	border: 1px solid blue;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	.carousel-caption_middle{
+		bottom:35%;
+	}
+	.carousel-caption_middle p{
+		display: none;
+	}
+}
